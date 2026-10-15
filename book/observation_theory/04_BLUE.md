@@ -25,11 +25,11 @@ Taking this particular weight matrix, i.e., $\mathrm{W}=\Sigma_Y^{-1}$, has a sp
 Given the BLU-estimator for $\hat{X}$, we can also find the BLU-estimators for $\hat{Y} =\mathrm{A}\hat{X}$, and for $\hat{\epsilon} =  Y-\hat{Y} $,
 
 $$
-\hat{Y}= \mathrm{A}(\mathrm{A^T} \Sigma_Y^{-1} \mathrm{A})^{-1} \mathrm{A^T} \Sigma_Y^{-1} Y
+\hat{Y}= \mathrm{A}(\mathrm{A^T} \Sigma_Y^{-1} \mathrm{A})^{-1} \mathrm{A^T} \Sigma_Y^{-1} X
 $$
 
 $$
-\hat{\epsilon}= Y-\mathrm{A}(\mathrm{A^T} \Sigma_Y^{-1} \mathrm{A})^{-1} \mathrm{A^T} \Sigma_Y^{-1} Y
+\hat{\epsilon}= Y-\mathrm{A}(\mathrm{A^T} \Sigma_Y^{-1} \mathrm{A})^{-1} \mathrm{A^T} \Sigma_Y^{-1} X
 $$
 
 :::{card} Exercise stochastic model
